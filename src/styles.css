@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #f8e7a6;
+  --secondary-color: blue;
+  --accent-color: green;
+}
+
+body {
+  background: var(--primary-color);
+  margin: 60px auto;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.email-link {
+  color: var(--secondary-color);
+  margin: 0;
+}
